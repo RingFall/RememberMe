@@ -1,0 +1,15 @@
+<view class="container">
+    <text class="word-content">{{content}}</text>
+    <view class="pron-container">
+      <audio src="{{audio}}" id='myaudio' class='ad' >
+      <button  bindtap='play'  class='bt' > 
+      <image src='/images/播放器.png' class='img'   ></image>
+      </button>
+      </audio>
+      <text class="word-pron">/{{pron}}/</text>
+    </view>
+    <text class="word-definition">{{definition}}</text>
+</view>
+  
+
+

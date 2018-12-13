@@ -1,0 +1,10 @@
+<!--pages/settings/feedback/feedback.wxml-->
+<view class='container'>
+  <text class='help-lable'>使用帮助</text>
+  <text class='help-text'>本小程序分为三个板块，首页为背单词功能，其次有‘发现’功能和基本设置功能。首页的背单词可以根据您的喜好来添加单词本进行学习。当您需要查找某个单词的意思时，点击单词页面上方的搜索栏，输入您想要查找的单词，点击‘查询‘即可。发现页面有相关的文章、电影等推荐，帮助您找到您所喜欢的内容，也可以在搜索栏中搜索您所感兴趣的内容。设置页面有基本的几个设置，包括账号设置、单词本选择等，可以根据您的需求来修改相关事项。感想您的使用！</text>
+  <text class='feedback-lable'>问题描述</text>
+  <textarea class='feedback-text' placeholder='请详细说明您所遇到的问题' bindblur='getContent'></textarea>
+  <text class='connect-lable'>联系方式</text>
+   <textarea class='connect-text' placeholder='请留下您的邮箱' bindblur='getConnection'></textarea>
+   <button class='submit-lable' form-type='submit'>提交</button>
+</view>

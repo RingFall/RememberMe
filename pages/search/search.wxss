@@ -1,0 +1,31 @@
+/* pages/search/search.wxss */
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.page_bd{
+  width: 90%;
+  margin-top: 10px;
+  padding:10px;
+  background-color:  #ffffff;
+  font-family: Songti TC;
+  font-size: 32rpx;
+  color: #000000;
+  border-radius: 10rpx;
+}
+.body_head{
+  padding: 10px;
+}

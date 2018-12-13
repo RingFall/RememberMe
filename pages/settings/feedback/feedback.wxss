@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  padding: 30rpx;
+}
+.help-lable{
+  margin-top: 40rpx;
+  float: left;
+  font-size: 34rpx;
+
+}
+.feedback-label {
+  float: left;
+  margin-top: 50rpx;
+  font-size: 32rpx;
+}
+.help-text{
+font-size: 32rpx;
+width: 80%;
+margin-top: 20rpx;
+padding: 30rpx;
+}
+
+.feedback-text {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 30rpx;
+  font-size: 32rpx;
+  width: 80%;
+  border-radius: 10rpx;
+}
+.connect-label {
+  margin-top: 50rpx;
+  font-size: 32rpx;
+}
+
+.connect-text {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 30rpx;
+  font-size: 32rpx;
+  width: 80%;
+  height: 80rpx;
+  border-radius: 10rpx;
+}
+
+.submit-lable {
+  margin-top: 80rpx;
+  width: 88%;
+  font-size: 38rpx;
+}
