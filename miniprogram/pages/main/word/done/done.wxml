@@ -1,0 +1,7 @@
+<!--pages/main/word/done/donr.wxml-->
+<view class="container">
+<image class="icon" src="{{s}}"></image>
+<text class="finish">今日背单词数：</text>
+<text class="num">50</text>
+<button class="button" bindtap="goback">返回主页</button>
+</view>

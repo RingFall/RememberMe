@@ -1,0 +1,20 @@
+<!--pages/recommand/recommand.wxml-->
+<view class="container">
+    <view class='page_bd'>
+     
+        <view class="body_head" bindtap='mo_button' plain="true" >
+            电影推荐
+             <image src="{{s1}}" style="margin-left: 200px;vertical-align: middle;width:30px; height: 30px;"></image>
+        </view>
+    </view>
+
+    <view class='page_bd'>
+    
+        <view class="body_head" bindtap='ar_button' plain="true">
+            文章推荐
+            <image src="{{s1}}" style="margin-left: 200px;vertical-align: middle;width:30px; height: 30px;"></image>
+        </view>
+        
+    </view>
+
+</view>

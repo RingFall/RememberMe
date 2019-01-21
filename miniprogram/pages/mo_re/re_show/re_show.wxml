@@ -1,0 +1,14 @@
+<!--pages/mo_re/re_show/re_show.wxml-->
+<view class='container'>
+  <loading hidden = "{{load_hide}}">
+    加载中.......
+  </loading>
+  <view class = "similar">相似者id：{{id1}}，相似度：{{point1}}</view>
+  <view class = "similar">相似者id：{{id2}}，相似度：{{point2}}</view>
+  <block wx:for = "{{mo_name}}" wx:key = "*this" >
+      <button bindtap = "mo_del_bu" data-text = "{{item}}">
+        {{item}}
+      </button>
+  </block>
+
+</view>

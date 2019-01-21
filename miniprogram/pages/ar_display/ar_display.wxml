@@ -1,0 +1,8 @@
+<view class="container">
+  <loading>
+    加载中.......
+  </loading>
+  <view>
+    <web-view src = "{{url}}"></web-view>
+  </view>
+</view>

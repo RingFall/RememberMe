@@ -1,0 +1,52 @@
+ {
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "pages/main/sousuo/sousuo",
+    "pages/main/word/word",
+    "pages/main/word/done/done",
+    "pages/settings/settings",
+    "pages/settings/unknownword/unknownword",
+    "pages/settings/feedback/feedback",
+    "pages/search/search",
+    "pages/search/list/list",
+    "pages/recommand/recommand",
+    "pages/mo_re/mo_re",
+    "pages/mo_re/re_show/re_show",
+    "pages/mo_display/mo_display",
+    "pages/ar_re/ar_re",
+    "pages/ar_display/ar_display"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "RememberMe",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "selectedColor": "#000000",
+    "color": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "单词",
+        "iconPath": "images/n点赞.png",
+        "selectedIconPath": "images/点赞.png"
+      },
+      {
+        "pagePath": "pages/recommand/recommand",
+        "text": "发现",
+        "iconPath": "images/n观看.png",
+        "selectedIconPath": "images/观看.png"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "设置",
+        "iconPath": "images/n账号.png",
+        "selectedIconPath": "images/账号.png"
+      }
+    ]
+  }
+}

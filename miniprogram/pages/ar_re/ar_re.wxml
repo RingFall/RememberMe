@@ -1,0 +1,12 @@
+<!--pages/ar_re/ar_re.wxml-->
+<view class='container'>
+  <loading hidden = "{{load_hide}}">
+    加载中.......
+  </loading>
+  <block wx:for = "{{ar_name}}" wx:key = "*this" >
+      <button bindtap = "ar_del_bu" data-text = "{{item}}">
+        {{item}}
+      </button>
+  </block>
+  <button bindtap="change" hidden="{{next_hide}}" class = "next">换一下</button>
+</view>

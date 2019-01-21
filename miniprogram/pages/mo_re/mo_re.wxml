@@ -1,0 +1,14 @@
+<!--pages/mo_re/mo_re.wxml-->
+<view class='container'>
+  <loading hidden = "{{load_hide}}">
+    加载中.......
+  </loading>
+  <block wx:for = "{{mo_name}}" wx:key = "*this" >
+      <button bindtap = "mo_del_bu" data-text = "{{item}}">
+        {{item}}
+      </button>
+  </block>
+  <button bindtap="change" hidden="{{next_hide}}" class = "next">换一下</button>
+  <button bindtap="find_similiar" hidden="{{next_hide}}" class = "next">相似推荐</button>
+
+</view>

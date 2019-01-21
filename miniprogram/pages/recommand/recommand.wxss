@@ -1,0 +1,34 @@
+/* pages/recommand/recommand.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 100rpx;
+}
+.page_bd{
+  width: 90%;
+  margin-top: 10px;
+  padding:10px;
+  background-color:  #ffffff;
+  font-family: Songti TC;
+  font-size: 32rpx;
+  color: #63B8FF;
+  border-radius: 10rpx;
+  border: 2rpx solid #ddd;
+}
+
+.body_head{
+  padding: 10px;
+   color: #000000;
+   
+}
+
+
+
+
+
+

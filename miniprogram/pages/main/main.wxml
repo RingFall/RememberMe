@@ -1,0 +1,24 @@
+<view class='page_row'>
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+         <input class="input-search" bindconfirm="search" placeholder="请输入您要查询的单词" bindinput='word'/>
+    </view>
+    <view class="button-search" bindtap="search">
+    <text class="text-search">查询</text>
+  </view> 
+  </view>
+
+  <view class="container">
+  <view class='page_bd'>
+      <view class="body_head" bindtap="showitem">日语单词</view>
+  </view>
+  <view class='page_bd'>
+      <view class="body_head" bindtap="showitem2">韩语单词</view>
+  </view>
+  <view class='page_bd'>
+      <view class="body_head" bindtap="showitem3">英语单词</view>
+   </view>
+
+</view>
+
+

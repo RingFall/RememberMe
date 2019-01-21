@@ -1,0 +1,16 @@
+<!--pages/main/word/word.wxml-->
+<progress class="progress" percent="{{percent}}" show-info="{{isSi}}" stroke-width="{{sw}}" activeColor="{{pc}}" backgroundColor="{{pbc}}" active="{{isActive}}" active-mode="forwards">
+</progress>
+<view class="container" style="word-break:break-all ">
+    <text class="word-content">{{word}}</text>
+    <image class="save " src="{{isClick?'../../../images/已收藏.png':'../../../images/收藏.png'}}" bindtap="havesave"></image>
+    <text wx:if="{{showNot}}" class="word-definition"  >{{meaning}}</text>
+    <text wx:if="{{showNot}}" class="word-example" >{{lj}}</text>
+
+    <view class="button-miss" catchtap="show">
+      <text class="word-miss" catchtap="show">不认识</text>
+    </view>
+    <view class="button-next" catchtap="next">
+      <text class="word-next" catchtap="next">下一个</text>
+    </view>
+</view> 

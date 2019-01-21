@@ -1,0 +1,12 @@
+<!--pages/settings/unknownword/unknownword.wxml-->
+<block wx:for="{{word}}" wx:for-index="i" wx:for-item="word" wx:key = "*this">
+  <view wx:for="{{meaning}}" wx:for-index="j" wx:for-item="meaning">
+    <view wx:if="{{i == j}}"catchtap="show">
+    <view class="container">
+    <text class="word-content">{{word}}
+    <text wx:if="{{showNot}}" class="word-definition"  >{{meaning}}</text></text> 
+    </view>
+    </view>
+    </view>
+</block>
+

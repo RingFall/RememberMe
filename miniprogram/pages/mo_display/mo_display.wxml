@@ -1,0 +1,15 @@
+<!--/pages/mo_display/mo_display.wxml-->
+<view class = "container">
+  <loading hidden = "{{load_hide}}">
+    加载中.......
+  </loading>
+
+  <image src= "{{poster_url}}" bindload="image_load" class="movie_poster"></image>
+  
+  <view class = "movie_name">电影名：{{mo_name}}</view>
+  <view class = "movie_abstract">电影简介：{{mo_abs}}</view>
+  <view class = "tbtn">
+    <button class = "like_button" bindtap="like_mo">喜欢</button>
+    <button class = "unlike_button" bindtap="unlike_mo">不喜欢</button>
+  </view>
+</view>

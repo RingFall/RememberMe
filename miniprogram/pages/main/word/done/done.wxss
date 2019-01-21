@@ -1,0 +1,35 @@
+/* pages/main/word/done/donr.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 30rpx;
+}
+.icon{
+  padding-top: 80rpx;
+  height: 150rpx;
+  width:150rpx; 
+ 
+}
+.button{
+  margin-top: 50px;
+  height: 100rpx;
+  width:400rpx; 
+  border: 10rpx;
+  background-color: #63B8FF;
+  font-size: 20px;
+  color:floralwhite;
+}
+.finish{
+  font-size: 20px;
+  padding-top: 30rpx;
+}
+.num{
+  font-size: 40px;
+  padding-top: 30rpx;
+  margin-top: 20px;
+}

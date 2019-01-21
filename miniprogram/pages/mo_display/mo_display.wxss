@@ -1,0 +1,26 @@
+.movie_abstract{
+  width: 90%;
+  padding-left: 5%;
+}
+
+.movie_name{
+  padding-left: 5%;
+}
+
+.movie_poster{
+  padding-left: 5%;
+}
+
+.tbtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button{
+  width: 100px;
+  margin: 20px;
+  background-color: #63B8FF;
+  border: none;
+}
+

@@ -1,0 +1,16 @@
+/* pages/mo_re/mo_re.wxss */
+button{
+  width: 90%;
+  margin-top: 30rpx;
+  color: rgb(0, 7, 12);
+  background-color: #ffffff;
+  border: 2rpx solid #ddd;
+}
+
+.next{
+  border: none;
+  width: 90%;
+  margin-top: 30rpx;
+  color: #ffffff;
+  background-color: #63B8FF;
+}
